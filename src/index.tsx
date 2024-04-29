@@ -9,7 +9,7 @@ const rootElement = document.getElementById('root');
 if (!rootElement) throw new Error('Failed to find the root element');
 const root = createRoot(rootElement);
 root.render(
-  <BrowserRouter basename='https://terms.xpla.io'>
+  <BrowserRouter basename='/'>
     <Routes>
       <Route path="/" element={<Privacy />} />
       <Route path="/privacy" element={<Privacy />} />
