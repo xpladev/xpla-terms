@@ -12,8 +12,8 @@ root.render(
   <BrowserRouter basename='/'>
     <Routes>
       <Route path="/" element={<Privacy />} />
-      <Route path="/privacy" element={<Privacy />} />
-      <Route path="/cookie" element={<Cookie />} />
+      <Route path="/privacy-policy" element={<Privacy />} />
+      <Route path="/cookie-policy" element={<Cookie />} />
     </Routes>
   </BrowserRouter>
 );
