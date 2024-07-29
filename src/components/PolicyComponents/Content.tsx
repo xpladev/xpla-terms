@@ -26,7 +26,7 @@ const Content = ({ title,
         });
     };
 
-    return <div className="flex flex-col max-w-[1290px] w-full">
+    return <div className="flex flex-col max-w-[1290px] w-full break-words">
         <div className="flex justify-start items-start md:items-end flex-col md:flex-row">
             <div className="text-black text-[40px] font-bold leading-[48px] mr-[16px]">
                 {title}
