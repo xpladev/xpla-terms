@@ -31,7 +31,7 @@
             {
                 "index" : 4,
                 "english": {
-                    "title" : "4. Which service providers do we use (Third Party Cookies)?",
+                    "title" : "4. Which service providers do we use (Third-Party Cookies)?",
                     "contentInnerhtml" : true,
                     "content" : "We may use third-party Service providers to monitor and analyze the use of our Service. \nGoogle Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service.  You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js and dc.js) from sharing information with Google Analytics about visits activity. For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page:\nhttps://policies.google.com/privacy\nYou can opt-out of cookies from Google Analytics <a style='color: #00b1ff;' target='_blank' rel='noopener noreferrer' href='https://tools.google.com/dlpage/gaoptout'>here</a>."
                 }
@@ -39,7 +39,7 @@
             {
                 "index" : 5,
                 "english": {
-                    "title" : "5. transfer to third countries outside the European.",
+                    "title" : "5. Transfer to third countries outside the European.",
                     "content" : "In some cases, the use of cookies results in the transfer of your personal data to third countries outside the European Union/European Economic Area (“EU / EEA”). For a list of so-called safe third countries with an adequate level of data protection and for which there is therefore an adequacy decision by the European Commission, see: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions. The transfer to unsafe third countries may be associated with risks for your personal data, as access to your personal data by the respective authorities cannot be excluded in the event of a transfer. If we transfer your data to other countries outside the EU / EEA based on your consent, we will take measures to ensure that your data protection rights are protected."
                 }
             },
