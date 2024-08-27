@@ -3,7 +3,7 @@ export interface PoliciesData {
     date: string;
     article: {
         index?: number,
-        english: {
+        english?: {
             noborder?: boolean;
             title?: string;
             content?: string;

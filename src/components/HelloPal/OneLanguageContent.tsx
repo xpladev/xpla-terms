@@ -1,18 +1,17 @@
 import React, { useRef } from "react";
-import DateSelect from "./DateSelect";
 import { PoliciesData, TableData } from "../../type";
-import useLanguage from "../../zustand/useLanguage";
+import DateSelect from "../PolicyComponents/DateSelect";
 
-const Content = ({ title,
-    policiesData, index, setIndex
+const OneLanguageContent = ({ title,
+    policiesData, index, language, setIndex
 }: {
     title: string,
     policiesData: PoliciesData[],
     index: number,
+    language: "english" | "korean",
     setIndex: React.Dispatch<React.SetStateAction<number>>
 }) => {
     const contentRefs = useRef<(HTMLDivElement | null)[]>([]);
-    const { language } = useLanguage();
 
     const onMoveToContentElement = (i: number) => {
 
@@ -95,7 +94,7 @@ const Content = ({ title,
     </div>
 }
 
-export default Content
+export default OneLanguageContent
 
 const getDateFormat = (date: string) => {
     const d = new Date(date);

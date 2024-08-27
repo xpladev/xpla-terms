@@ -4,7 +4,6 @@ import PolicySidebar from "./components/PolicyComponents/PolicySidebar";
 import Content from "./components/PolicyComponents/Content";
 import privacyData from "./privacy.json";
 import TopButton from "./components/PolicyComponents/TopButton";
-import LanguageSelect from "./components/PolicyComponents/LanguageSelect";
 
 
 const Privacy = () => {
