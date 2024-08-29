@@ -8,7 +8,7 @@ const HelloPalPolicySidebar = () => {
     const { pathname } = location;
     const { language } = useLanguage();
 
-    return <div className="md:mt-0 flex ">
+    return <div className="md:mt-0 mt-[60px] flex ">
         <Link
             className={clsx("text-[16px] font-medium leading-[19px] mr-[12px]",
                 (pathname === "/hello-pal/tou" || pathname === "/" )? "text-[#00B1FF]" : "text-[#878D96]"
